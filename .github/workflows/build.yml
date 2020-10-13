@@ -14,8 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Copy config
-      run: cp assets/config.example.json assets/config.json
     - name: Compile CSS from SCSS files
       uses: gha-utilities/sass-build@v0.2.8
       with:
