@@ -18,7 +18,7 @@ jobs:
       uses: gha-utilities/sass-build@v0.2.8
       with:
         source: style.sass
-        destination: dist
+        destination: dist/style.css
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@3.5.9
       with:
